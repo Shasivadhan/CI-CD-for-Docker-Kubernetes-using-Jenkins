@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: prashanthvarma6757/jesuscicdm18
+        image: prashanthvarma6757/jesuscicdm18:22
         ports:
         - name: vproapp-port
           containerPort: 8080
