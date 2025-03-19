@@ -1,3 +1,4 @@
+# ------------------- Deployment -------------------
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -26,6 +27,7 @@ spec:
           requests:
             cpu: 200m
 
+# ------------------- Service -------------------
 ---
 apiVersion: v1
 kind: Service
@@ -34,13 +36,13 @@ metadata:
 spec:
   ports:
   - port: 80
-#    nodePort: 31001
     targetPort: vproapp-port
     protocol: TCP
   selector:
     app: vproapp
   type: LoadBalancer
 
+# ------------------- HPA -------------------
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
@@ -48,9 +50,9 @@ metadata:
   name: hpa-vprofile-autoscaler
 spec:
   scaleTargetRef:
-    apiVersion: extensions/v1beta1
+    apiVersion: apps/v1
     kind: Deployment
-    name: vproapp
+    name: vproapp-deployment
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 50
