@@ -1,0 +1,37 @@
+[33mbfcdf02[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcurrent[m[33m)[m added 3rd rebase file
+[33mea0f7f6[m rebase file2
+[33me6e609f[m rebase files aded
+[33m68970db[m created current file2
+[33m0c96e60[m current file1 is created
+[33me28d688[m new commit from current branch
+[33m6abda84[m ksv added files to credit branch
+[33m7fbd7e5[m[33m ([m[1;32mdebit[m[33m)[m test purpose only
+[33m36ce190[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/debit[m[33m, [m[1;31morigin/HEAD[m[33m)[m added file 3 to debit branch by ksv
+[33m326c836[m file 2 added to debit branch
+[33m96dc6ac[m file1 added to debit branch
+[33m0f998e9[m file1 added
+[33m5d0a604[m[33m ([m[1;31morigin/savings[m[33m, [m[1;32msavings[m[33m)[m files related to savings
+[33m80deb4d[m Update app.yml
+[33m5ede032[m Update app.yml
+[33m462fa4f[m Update app.yml
+[33m8fde62d[m Merge branch 'main' of https://github.com/SumitM01/CI-CD-for-Docker-Kubernetes-using-Jenkins
+[33m18d5e3a[m removed keys
+[33m0c79f10[m Update README.md removed project arch image
+[33me5d645d[m Update README.md emoticons and links to tools
+[33mbdc19dd[m Update README.md images
+[33m321df5f[m Update README.md text
+[33m953fea5[m update README text
+[33m1c8a195[m edit vprodbdep file
+[33m02be7b1[m edit vprodbdep file
+[33mf7c3510[m edit vprodbdep file
+[33md8c00de[m edit gitignore
+[33mf5a5a62[m Merge branch 'main' of https://github.com/SumitM01/CI-CD-for-Docker-Kubernetes-using-Jenkins
+[33mb62c9bd[m edit gitignore
+[33m979a62b[m Update Jenkinsfile
+[33mb0a64af[m Added Jenkinsfile
+[33mcceec03[m Updated README
+[33m62935f0[m Added screenshots
+[33mfcf0432[m Merge branch 'main' of https://github.com/SumitM01/CI-CD-for-Docker-Kubernetes-using-Jenkins
+[33mca61fef[m README
+[33me80a972[m Added helm files and kubernetes files
+[33mf381667[m Initial commit
